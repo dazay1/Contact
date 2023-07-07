@@ -1,39 +1,3 @@
-// let inp1 = document.getElementById('inp1');
-// let inp2 = document.getElementById('inp2');
-// let add = document.getElementById('add');
-// let contact = document.getElementById('contact');
-// let info = document.getElementById('info')
-
-// function infoF(text) {
-//   info.classList.add('active');
-//   info.firstElementChild.innerHTML = text 
-//   setTimeout(() => {
-//     info.classList.remove('active')
-//   }, 4000)
-// }
-// let users = [
-//   {
-//     name: "Yusuf",
-//     tel: "909758456"
-//   }
-// ]
-// add.addEventListener('click', () => {
-//   contact.className.remove('active');
-//   if ( inp1.value.length === 0 || inp2.value.length === 0) {
-//     infoF('Please, enter your email, password and password confirmation for sign up.')
-//   } else {
-//     let user = users.find(user => user.name === inp1.value);
-//     if (user !== undefined) {
-//       infoF("The contact of this name already exist")
-//     } else {
-//         contact.classList.add('active');
-//         contact.firstElementChild.innerHTML = inp1.value;
-//         contact.children[1].innerHTML = inp2.value;
-//     }
-//   }
-// })
-
-
 const tableKey = 'cms-table';
 
 let clearBtn = document.getElementById('clearBtn');
